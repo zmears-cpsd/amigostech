@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Site</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 220px;
+      background: #2c3e50;
+      color: white;
+      height: 100vh;
+      padding: 20px;
+      position: fixed;
+    }
+
+    .sidebar h2 {
+      font-size: 18px;
+    }
+
+    .sidebar a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin: 10px 0;
+      padding: 8px;
+      border-radius: 6px;
+    }
+
+    .sidebar a:hover {
+      background: #34495e;
+    }
+
+    /* Main content */
+    .content {
+      margin-left: 240px;
+      padding: 30px;
+      max-width: 900px;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    /* Collapsible sections */
+    details {
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 12px;
+      background: #f9f9f9;
+    }
+
+    summary {
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    img {
+      max-width: 100%;
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+
+    /* Optional: make it look nicer on small screens */
+    @media (max-width: 700px) {
+      .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+      }
+
+      .content {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="sidebar">
+  <h2>My Site</h2>
+  <a href="index.html">Home</a>
+  <a href="page2.html">Page 2</a>
+  <a href="page3.html">Page 3</a>
+  <a href="page4.html">Page 4</a>
+  <a href="page5.html">Page 5</a>
+</div>
+
+<div class="content">
+
+<h1>Welcome</h1>
+<p>This is your homepage.</p>
+
+<details>
+  <summary>Lesson 1</summary>
+  <p>Intro text for this section.</p>
+  <img src="https://via.placeholder.com/600x300">
+  <p>More explanation below the image.</p>
+</details>
+
+<details>
+  <summary>Lesson 2</summary>
+  <p>Another expandable section.</p>
+</details>
+
+</div>
+
+</body>
+</html>
