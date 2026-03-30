@@ -1,14 +1,13 @@
  body {
       margin: 0;
       font-family: Arial, sans-serif;
-      display: flex;
+      /*display: flex;*/
     }
 
 	/* TOP BANNER STYLES */
 	.topBanner h1 {
 		font-size: 36px;
 	}
-
 	/* 1st and 2nd top banner */
 	.1and2Banner {
 		background: #DDA0DD
