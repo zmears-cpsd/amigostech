@@ -4,6 +4,32 @@
       display: flex;
     }
 
+	/* TOP BANNER STYLES */
+	.topBanner h1 {
+		font-size: 36px;
+	}
+
+	/* 1st and 2nd top banner */
+	.1and2Banner {
+		background: #DDA0DD
+	}
+	/* 3rd grade top banner */
+	.3rdBanner {
+		background: #3EB489
+	}
+	/* 4th grade top banner */
+	.4thBanner {
+		background: #FCEFB4
+	}
+	/* 5th grade top banner */
+	.5thBanner {
+		background: #A7C7E7
+	}
+	/* Resources top banner */
+	.resourcesBanner {
+		background: #CFCFC4
+	}
+
     /* Sidebar */
     .sidebar {
       width: 130px;
