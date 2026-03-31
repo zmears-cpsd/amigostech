@@ -14,27 +14,27 @@
 	}
 	/* home top banner */
 	.homeBanner {
-		background: #EF9A9A
+		background: #EF9A9A;
 	}
 	/* 1st and 2nd top banner */
 	.1and2Banner {
-		background: #fccffc
+		background: #fccffc;
 	}
 	/* 3rd grade top banner */
 	.3rdBanner {
-		background: #3EB489
+		background: #3EB489;
 	}
 	/* 4th grade top banner */
 	.4thBanner {
-		background: #FCEFB4
+		background: #FCEFB4;
 	}
 	/* 5th grade top banner */
 	.5thBanner {
-		background: #A7C7E7
+		background: #A7C7E7;
 	}
 	/* Resources top banner */
 	.resourcesBanner {
-		background: #CFCFC4
+		background: #CFCFC4;
 	}
 
     /* Sidebar */
@@ -66,7 +66,7 @@
 
     /* Main content */
     .content {
-      margin-left: 200px;
+      margin-left: 175px;
       padding: 30px;
       max-width: 900px;
     }
@@ -77,7 +77,8 @@
 
     /* Collapsible sections */
     details {
-      margin-bottom: 15px;
+      margin-left: 175px;
+		margin-bottom: 15px;
       border: 1px solid #ddd;
       border-radius: 10px;
       padding: 12px;
