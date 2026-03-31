@@ -17,19 +17,19 @@
 		background: #EF9A9A;
 	}
 	/* 1st and 2nd top banner */
-	.1and2Banner {
+	.firstSecondBanner {
 		background: #fccffc;
 	}
 	/* 3rd grade top banner */
-	.3rdBanner {
+	.thirdBanner {
 		background: #3EB489;
 	}
 	/* 4th grade top banner */
-	.4thBanner {
+	.fourthBanner {
 		background: #FCEFB4;
 	}
 	/* 5th grade top banner */
-	.5thBanner {
+	.fifthBanner {
 		background: #A7C7E7;
 	}
 	/* Resources top banner */
@@ -39,8 +39,8 @@
 
     /* Sidebar */
     .sidebar {
-      width: 130px;
-      background: #2c3e50;
+      width: 120px;
+      background: #314573;
       color: white;
       height: 100vh;
       padding: 20px;
@@ -77,12 +77,12 @@
 
     /* Collapsible sections */
     details {
-      margin-left: 175px;
+		margin-left: 175px;
 		margin-bottom: 15px;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      padding: 12px;
-      background: #f9f9f9;
+      	border: 1px solid #ddd;
+      	border-radius: 10px;
+      	padding: 12px;
+      	background: #f9f9f9;
     }
 
     summary {
