@@ -4,7 +4,7 @@
       /*display: flex;*/
     }
 
-	/* TOP BANNER STYLES */
+	/* ---TOP BANNER STYLES--- */
 	.topBanner {
 		display: flex;
 		justify-content: center;
@@ -42,8 +42,9 @@
 	.resourcesBanner {
 		background: #CFCFC4;
 	}
+	/* ---END TOP BANNER---*/
 
-    /* Sidebar */
+    /* ---SIDEBAR--- */
     .sidebar {
       width: 120px;
       background: #2148a3;
@@ -69,8 +70,9 @@
     .sidebar a:hover {
       background: #34495e;
     }
+/* ---END SIDEBAR--- */
 
-    /* Main content */
+/* ---MAIN CONTENT--- */
     .content {
       margin-left: 150px;
       padding: 30px;
@@ -111,6 +113,7 @@
       }
 
       .content {
-        margin-left: 0;
+		  margin-left: 0;
+		  background: #FFFFF0;
       }
     }
