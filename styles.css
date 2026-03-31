@@ -45,6 +45,7 @@
 	}
 	/* ---END TOP BANNER---*/
 
+
     /* ---SIDEBAR--- */
     .sidebar {
       width: 120px;
@@ -54,11 +55,9 @@
       padding: 20px;
       position: fixed;
     }
-
     .sidebar h2 {
       font-size: 18px;
     }
-
     .sidebar a {
       display: block;
       color: white;
@@ -67,11 +66,11 @@
       padding: 8px;
       border-radius: 6px;
     }
-
     .sidebar a:hover {
       background: #34495e;
     }
 /* ---END SIDEBAR--- */
+
 
 /* ---MAIN CONTENT--- */
     .content {
@@ -80,12 +79,15 @@
       	max-width: 900px;
 		background: #FFFFF0;
     }
-
+	.blurb {
+		font-size: 16px;
+		font-weight: medium;
     h1 {
-      margin-top: 0;
+      margin-top: 10;
     }
 
-    /* Collapsible sections */
+		
+    /* ---COLLAPSIBLE SECTIONS--- */
     details {
 		margin-bottom: 15px;
       	border: 1px solid #ddd;
@@ -93,20 +95,18 @@
       	padding: 12px;
       	background: #f9f9f9;
     }
-
     summary {
       font-weight: bold;
       cursor: pointer;
       font-size: 18px;
     }
-
     img {
       max-width: 100%;
       margin-top: 10px;
       border-radius: 8px;
     }
 
-    /* Optional: make it look nicer on small screens */
+    /* ---Optional: make it look nicer on small screens--- */
     @media (max-width: 700px) {
       .sidebar {
         position: relative;
