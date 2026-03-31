@@ -5,10 +5,14 @@
     }
 
 	/* TOP BANNER STYLES */
+	.topBanner {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 	.topBanner h1 {
 		font-size: 36px;
 		font-weight: bold;
-		margin-left: 200px;
       	padding: 30px;
       	max-width: 900px;
 	}
