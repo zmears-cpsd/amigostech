@@ -13,6 +13,8 @@
 	.topBanner h1 {
 		font-size: 36px;
 		font-weight: bold;
+		text-align: center;
+		margin: 0;
       	padding: 30px;
       	max-width: 900px;
 	}
