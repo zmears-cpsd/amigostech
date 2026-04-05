@@ -73,7 +73,7 @@ body {
 
 /* ---MAIN CONTENT--- */
 .content {
-  margin-left: 150px;
+  margin-left: 160px;
   padding: 30px;
   /*max-width: 900px;*/
   background: #fffff0;
@@ -85,7 +85,7 @@ body {
   width: 90%;*/
   text-align: center;
   margin: 0 auto;
-  padding: 0 30px 25px 30px;
+  padding: 10px 30px 25px 30px;
   max-width: 900px;
 }
 h1 {
@@ -104,6 +104,16 @@ summary {
   font-weight: bold;
   cursor: pointer;
   font-size: 18px;
+}
+.sub-collapsible {
+  /*styles here*/
+    margin-left: 15px;
+}
+.top-sub-collapsible {
+  margin-top: 15px;
+}
+.reduce-margin {
+  margin-top: -8px;
 }
 img {
   max-width: 100%;
