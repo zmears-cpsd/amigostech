@@ -1,135 +1,144 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  /*display: flex;*/
+	margin: 0;
+	font-family: Arial, sans-serif;
+	/*display: flex;*/
 }
 
 /* ---TOP BANNER STYLES--- */
 .topBanner {
-  margin-left: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	margin-left: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .topBanner h1 {
-  font-size: 36px;
-  font-weight: bold;
-  text-align: center;
-  width: 100%;
-  margin: 0;
-  padding: 30px;
-  max-width: 900px;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	padding: 30px;
+	max-width: 900px;
 }
 /* home top banner */
 .homeBanner {
-  background: #ef9a9a;
+	background: #ef9a9a;
 }
 /* 1st and 2nd top banner */
 .firstSecondBanner {
-  background: #fccffc;
+	background: #fccffc;
 }
 /* 3rd grade top banner */
 .thirdBanner {
-  background: #3eb489;
+	background: #3eb489;
 }
 /* 4th grade top banner */
 .fourthBanner {
-  background: #fcefb4;
+	background: #fcefb4;
 }
 /* 5th grade top banner */
 .fifthBanner {
-  background: #a7c7e7;
+	background: #a7c7e7;
 }
 /* Resources top banner */
 .resourcesBanner {
-  background: #cfcfc4;
+	background: #cfcfc4;
 }
 /* ---END TOP BANNER---*/
 
 /* ---SIDEBAR--- */
 .sidebar {
-  width: 120px;
-  background: #2148a3;
-  color: white;
-  height: 100vh;
-  padding: 20px;
-  position: fixed;
+	width: 120px;
+	background: #2148a3;
+	color: white;
+	height: 100vh;
+	padding: 20px;
+	position: fixed;
 }
 .sidebar h2 {
-  font-size: 18px;
+	font-size: 18px;
 }
 .sidebar a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  margin: 10px 0;
-  padding: 8px;
-  border-radius: 6px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	margin: 10px 0;
+	padding: 8px;
+	border-radius: 6px;
 }
 .sidebar a:hover {
-  background: #34495e;
+	background: #34495e;
 }
 /* ---END SIDEBAR--- */
 
 /* ---MAIN CONTENT--- */
 .content {
-  margin-left: 160px;
-  padding: 30px;
-  /*max-width: 900px;*/
-  background: #fffff0;
+	margin-left: 160px;
+	padding: 30px;
+	/*max-width: 900px;*/
+	background: #fffff0;
+}
+.ital {
+	font-style: italic;
+}
+.bold {
+	font-weight: bold;
 }
 .blurb {
-  font-size: 20px;
-  font-weight: 500;
-  /*padding: 0px px 25px 15px;
+	font-size: 20px;
+	font-weight: 500;
+	/*padding: 0px px 25px 15px;
   width: 90%;*/
-  text-align: center;
-  margin: 0 auto;
-  padding: 10px 30px 25px 30px;
-  max-width: 900px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px 30px 25px 30px;
+	max-width: 900px;
+}
+li {
+	margin-bottom: 5px;
 }
 h1 {
-  margin-top: 10px;
+	margin-top: 10px;
 }
 
 /* ---COLLAPSIBLE SECTIONS--- */
 details {
-  margin-bottom: 15px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 12px;
-  background: #f5f5f5;
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 12px;
+	background: #f5f5f5;
 }
 summary {
-  font-weight: bold;
-  cursor: pointer;
-  font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 18px;
 }
 .sub-collapsible {
-  /*styles here*/
-    margin-left: 15px;
+	/*styles here*/
+	margin-left: 15px;
 }
 .top-sub-collapsible {
-  margin-top: 15px;
+	margin-top: 15px;
 }
 .reduce-margin {
-  margin-top: -8px;
+	margin-top: -8px;
 }
 img {
-  max-width: 100%;
-  margin-top: 10px;
-  border-radius: 8px;
+	max-width: 100%;
+	margin-top: 10px;
+	border-radius: 8px;
 }
 
 /* ---Optional: make it look nicer on small screens--- */
 @media (max-width: 700px) {
-  .sidebar {
-    position: relative;
-    width: 100%;
-    height: auto;
-  }
+	.sidebar {
+		position: relative;
+		width: 100%;
+		height: auto;
+	}
 
-  .content {
-    margin-left: 0;
-  }
+	.content {
+		margin-left: 0;
+	}
 }
